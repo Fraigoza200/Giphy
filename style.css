@@ -11,3 +11,21 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 800px){
+    body{
+        background-image: url('https://media.giphy.com/media/3o6vXTpomeZEyxufGU/giphy.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url('https://media2.giphy.com/media/BHNfhgU63qrks/giphy.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
